@@ -1,9 +1,13 @@
 {
-  "name": "cli_calculator",
+  "name": "@faizamughal/cli_calculator",
   "type": "module",
   "version": "1.0.0",
   "description": "Simple cli_calculator for Node projects",
-  "main": "index.js",
+  "main": "./src/app.ts",
+  "repository":{
+     "type":"git",
+     "url":"https://github.com/faizamughal/cli_calculator.git"
+  },
   "scripts": {
     "start": "node ./dist/app.js"
   },
